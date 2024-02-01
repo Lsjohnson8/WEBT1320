@@ -13,6 +13,6 @@ body {
 Header h1 {
     text-align: center;
     font-size: 100px;
-    color: rgb(235, 254, 255);
+    color: black;
     text-shadow: 2px 1px 10px black;
 }
