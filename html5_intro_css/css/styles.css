@@ -7,12 +7,12 @@ body {
     padding: 20px;
     width: 75%;
     margin: 0 auto;
-    border: 4px solid rgb(245, 156, 54);
+    border: 4px solid rgb(205,112,6);
 }
 
 Header h1 {
     text-align: center;
     font-size: 100px;
-    color: rgb(237, 156, 81);
+    color: rgb(240, 175, 115);
     text-shadow: 2px 1px 10px rgb(0, 0, 0);
 }
