@@ -1,0 +1,28 @@
+/*Global Styles*/
+
+body {
+    background-color: aqua;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#container {
+    background-color: aquamarine;
+    width: 75%;
+    margin: 20px auto;
+}
+
+/*Desktop Styles*/
