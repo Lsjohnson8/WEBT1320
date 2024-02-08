@@ -117,14 +117,14 @@ hr {
     color: gold;
 }
 
-#extra {
+#sea {
     display: flex;
 }
 
-.extra {
+.seaani {
     margin: 10px;
 }
 
-.extra img {
+.seaani img {
     width: 100%;
 }
