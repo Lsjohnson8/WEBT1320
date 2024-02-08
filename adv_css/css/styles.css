@@ -1,7 +1,7 @@
 /*Global Styles*/
 
 body {
-    background-color: rgb(231, 248, 248);
+    background-color: rgb(249,185,74);
 }
 
 img {
@@ -20,7 +20,7 @@ a:hover {
 }
 
 #container {
-    background-color: rgb(229, 248, 251);
+    background-color: whitesmoke;
     width: 75%;
     margin: 20px auto;
 }
