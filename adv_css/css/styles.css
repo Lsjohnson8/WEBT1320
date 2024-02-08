@@ -116,3 +116,15 @@ hr {
 .button:hover {
     color: gold;
 }
+
+#extra {
+    display: flex;
+}
+
+.extra {
+    margin: 10px;
+}
+
+.extra img {
+    width: 100%;
+}
