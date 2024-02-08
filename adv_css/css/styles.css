@@ -97,3 +97,22 @@ footer {
 hr {
     width: 95%;
 }
+
+.button {
+    display: block;
+    background-color: black;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    color: white;
+}
