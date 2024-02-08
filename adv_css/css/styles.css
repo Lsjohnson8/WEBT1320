@@ -119,6 +119,8 @@ hr {
 
 #sea {
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .seaani {
