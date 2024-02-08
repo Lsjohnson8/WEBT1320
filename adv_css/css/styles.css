@@ -100,7 +100,7 @@ hr {
 
 .button {
     display: block;
-    background-color: black;
+    background-color: rgb(3, 86, 128);
     width: 125px;
     height: 40px;
     color: white;
@@ -114,5 +114,5 @@ hr {
 }
 
 .button:hover {
-    color: white;
+    color: gold;
 }
