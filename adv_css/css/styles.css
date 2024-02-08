@@ -1,7 +1,7 @@
 /*Global Styles*/
 
 body {
-    background-color: aqua;
+    background-color: rgb(231, 248, 248);
 }
 
 img {
@@ -11,16 +11,16 @@ img {
 }
 
 a {
-    color: blue;
+    color: rgb(0, 128, 255);
 }
 
 a:hover {
-    color: blueviolet;
+    color: rgb(5, 99, 240);
     text-decoration: none;
 }
 
 #container {
-    background-color: aquamarine;
+    background-color: rgb(229, 248, 251);
     width: 75%;
     margin: 20px auto;
 }
