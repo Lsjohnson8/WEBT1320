@@ -56,7 +56,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: midnightblue;
+    background-color: rgb(69, 69, 181);
 }
 
 header h1 {
@@ -139,5 +139,19 @@ footer {
 
     .col {
         width: 33.33%;
+    }
+
+    #sea {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .seaani {
+        margin: 10px;
+    }
+    
+    .seaani img {
+        width: 100%;
     }
 }
