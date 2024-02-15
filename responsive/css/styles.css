@@ -100,6 +100,8 @@ footer {
     font-weight: bold;
 }
 
+/* Tablet Styles */
+
 @media(min-width: 786px) {
     nav {
         text-align: center;
@@ -114,10 +116,10 @@ footer {
     }
 
     main img {
-        width: 50%;
+        width: 75%;
     }
 
     .col img {
-        width: 75%;
+        width: 45%;
     }
 }
