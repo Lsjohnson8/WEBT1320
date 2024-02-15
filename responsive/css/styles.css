@@ -19,7 +19,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: black;
+    color: rgb(73, 60, 192);
 }
 
 a:hover {
@@ -29,7 +29,7 @@ a:hover {
 
 /* Mobile Styles */
 nav {
-    background-color: rgb(17, 92, 190);
+    background-color: rgb(192, 209, 232);
     padding: 10px;
 }
 
@@ -47,7 +47,7 @@ nav li a {
     height: 40px;
     line-height: 40px;
     color: white;
-    background-color: midnightblue;
+    background-color: rgb(52, 110, 185);
     text-align: center;
     margin: 5px 0;
     font-size: 20px;
