@@ -6,7 +6,7 @@ img {
 }
 
 body {
-    background-color: rgb(70, 96, 4);
+    background-color: rgb(3, 136, 62);
 }
 
 #container {
@@ -47,7 +47,7 @@ nav li a {
     height: 40px;
     line-height: 40px;
     color: white;
-    background-color: rgb(70, 96, 4);
+    background-color: rgb(3, 136, 62);
     text-align: center;
     margin: 5px 0;
     font-size: 20px;
@@ -56,7 +56,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(70, 96, 4);
+    background-color: rgb(3, 136, 62);
 }
 
 header h1 {
@@ -90,7 +90,7 @@ footer {
     display: block;
     margin: 10px auto;
     text-align: center;
-    background-color: rgb(72, 113, 10);
+    background-color: rgb(3, 136, 62);
     width: 125px;
     height: 40px;
     line-height: 40px;
