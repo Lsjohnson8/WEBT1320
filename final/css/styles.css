@@ -38,7 +38,7 @@ a:hover {
 
 /* Mobile Styles */
 nav {
-    background-color: white;
+    background-color: wheat;
     padding: 10px;
 }
 
@@ -55,7 +55,7 @@ nav li a {
     display: block;
     height: 40px;
     line-height: 40px;
-    color: wheat;
+    color: black;
     background-color: white;
     text-align: center;
     margin: 5px 0;
@@ -65,7 +65,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(3, 136, 62);
+    background-color: whitesmoke;
 }
 
 header h1 {
@@ -107,7 +107,7 @@ footer {
     border: 2px solid black;
     border-radius: 10px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 /* Tablet Styles */
