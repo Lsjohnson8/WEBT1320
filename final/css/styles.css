@@ -1,92 +1,84 @@
-/*Global Styles*/
-
-body {
-    background-color: rgb(3, 86, 128);
-}
-
+/* Global Styles */
 img {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    Width: 100%;
 }
 
-a {
-    color: rgb(0, 128, 255);
-}
-
-a:hover {
-    color: rgb(249, 185, 74);
-    text-decoration: none;
+body {
+    background-color: midnightblue;
 }
 
 #container {
-    background-color: rgb(255, 255, 255);
-    width: 80%;
-    margin: 20px auto;
-    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
 }
 
- 
 h1, h2, h3 {
     text-align: center;
-    color: rgb(0, 0, 0);
 }
-/*Desktop Styles*/
 
+a {
+    color: rgb(73, 60, 192);
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
 nav {
-    background-color:black;
-    padding: 5px 0;
-    text-align: right;
+    background-color: rgb(192, 209, 232);
+    padding: 10px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
-nav li {
-    display: inline-block;
+nav li  {
+    display: block;
 }
 
 nav li a {
-    color: gold;
-    margin-right: 20px;
-    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: rgb(52, 110, 185);
+    text-align: center;
+    margin: 5px 0;
     font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 nav li a:hover {
-    color: rgb(255, 255, 255);
+    background-color: rgb(69, 69, 181);
 }
 
 header h1 {
-    font-size: 54px;
-    color:rgb(0, 0, 0);
-    text-shadow: 2px 2px 2px goldenrod;
+    font-size: 35 px;
+    color: black;
 }
 
 main {
-    padding: 20px;
-}
-
-main img {
-    width: 80%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 #lower {
-    display: flex;
+    border: 2px solid black;
+    padding: 10px;
 }
 
 .col {
-    padding: 10px;
+    border: 2px solid black;
     margin: 10px;
-    border: 2px solid gold;
-    width: 33.33%;
-    border-radius: 10px;
-}
-
-.col img {
-    border-radius: 20px;
+    padding: 10px;
 }
 
 footer {
@@ -94,39 +86,72 @@ footer {
     text-align: center;
 }
 
-hr {
-    width: 95%;
-}
-
 .button {
     display: block;
-    background-color: rgb(3, 86, 128);
+    margin: 10px auto;
+    text-align: center;
+    background-color: white;
     width: 125px;
     height: 40px;
-    color: white;
+    line-height: 40px;
     text-decoration: none;
-    text-align: center;
-    line-height: 35px;
-    margin-top: 10px;
+    border: 2px solid black;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    font-weight: bold;
 }
 
-.button:hover {
-    color: gold;
+/* Tablet Styles */
+
+@media(min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 200px;
+    }
+
+    main img {
+        width: 75%;
+    }
+
+    .col img {
+        width: 45%;
+    }
 }
 
-#sea {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-}
+/* Desktop Styles */
 
-.seaani {
-    margin: 10px;
-}
+@media(min-width: 1024px) {
+    #container{
+        width: 65%;
+        margin: 20px auto;
+    }
 
-.seaani img {
-    width: 100%;
+    #lower {
+        width: 100%;
+        display: flex;
+    }
+
+    .col {
+        width: 33.33%;
+    }
+
+    #sea {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .seaani {
+        margin: 10px;
+    }
+    
+    .seaani img {
+        width: 100%;
+    }
 }
