@@ -6,7 +6,7 @@ img {
 }
 
 body {
-    background-color: rgb(3, 136, 62);
+    background-color: wheat;
     font-family: "Merriweather", serif;
 }
 
@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-    color: rgb(249, 223, 55);
+    color: rgb(3, 136, 62);
     text-decoration: none;
 }
 
@@ -55,8 +55,8 @@ nav li a {
     display: block;
     height: 40px;
     line-height: 40px;
-    color: white;
-    background-color: rgb(3, 136, 62);
+    color: wheat;
+    background-color: white;
     text-align: center;
     margin: 5px 0;
     font-size: 20px;
@@ -99,7 +99,7 @@ footer {
     display: block;
     margin: 10px auto;
     text-align: center;
-    background-color: rgb(3, 136, 62);
+    background-color: wheat;
     width: 125px;
     height: 40px;
     line-height: 40px;
