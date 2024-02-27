@@ -6,7 +6,7 @@ img {
 }
 
 body {
-    background-color: midnightblue;
+    background-color: rgb(70, 96, 4);
 }
 
 #container {
@@ -19,7 +19,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgb(73, 60, 192);
+    color: rgb(0, 0, 0);
 }
 
 a:hover {
@@ -29,7 +29,7 @@ a:hover {
 
 /* Mobile Styles */
 nav {
-    background-color: rgb(192, 209, 232);
+    background-color: whitesmoke;
     padding: 10px;
 }
 
@@ -47,7 +47,7 @@ nav li a {
     height: 40px;
     line-height: 40px;
     color: white;
-    background-color: rgb(52, 110, 185);
+    background-color: rgb(70, 96, 4);
     text-align: center;
     margin: 5px 0;
     font-size: 20px;
@@ -56,7 +56,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(69, 69, 181);
+    background-color: rgb(70, 96, 4);
 }
 
 header h1 {
