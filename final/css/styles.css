@@ -6,12 +6,12 @@ img {
 }
 
 body {
-    background-color: wheat;
+    background-color: rgb(58, 77, 57);
     font-family: "Merriweather", serif;
 }
 
 #container {
-    background-color: white;
+    background-color: rgb(236, 227, 206);
     padding: 25px;
 }
 
@@ -32,13 +32,13 @@ a {
 }
 
 a:hover {
-    color: rgb(3, 136, 62);
+    color: white;
     text-decoration: none;
 }
 
 /* Mobile Styles */
 nav {
-    background-color: wheat;
+    background-color: rgb(115, 144, 114);
     padding: 10px;
 }
 
@@ -56,7 +56,7 @@ nav li a {
     height: 40px;
     line-height: 40px;
     color: black;
-    background-color: white;
+    background-color: rgb(115, 144, 114);
     text-align: center;
     margin: 5px 0;
     font-size: 20px;
@@ -65,12 +65,12 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 header h1 {
     font-size: 35 px;
-    color: black;
+    color: rgb(79, 111, 82);
 }
 
 main {
@@ -99,7 +99,7 @@ footer {
     display: block;
     margin: 10px auto;
     text-align: center;
-    background-color: wheat;
+    background-color: rgb(236, 227, 206);
     width: 125px;
     height: 40px;
     line-height: 40px;
